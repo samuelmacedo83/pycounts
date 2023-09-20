@@ -8,7 +8,7 @@ from pycounts.datasets import get_flatland
 from collections import Counter
 import matplotlib 
 import pytest
-
+  
 @pytest.fixture
 def einstein_counts():
     return Counter({
